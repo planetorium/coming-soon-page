@@ -1,0 +1,110 @@
+html {
+  color: #fff;
+  background-color: #ac84ce;
+  margin: 2em;
+}
+
+h1 {
+  font-family: Arvo, serif;
+  letter-spacing: .05em
+}
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.banner {
+  background-color: #ac84ce;
+}
+
+.load-box {
+  position: relative;
+}
+
+.load-bar {
+  width: 400px;
+}
+
+.blink {
+  position: absolute;
+  width: 46px;
+  top: 11px;
+  right: 237px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.instagram {
+  width: 80px;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    background-color: #5f2c83;
+  }
+
+  .banner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 650px;
+    background-color: #ac84ce;
+    border-radius: 30px;
+    border: 10px solid #fff;
+  }
+
+  .load-bar {
+    width: 450px;
+  }
+
+  .blink {
+    position: absolute;
+    width: 52px;
+    top: 13px;
+    right: 268px;
+    animation: pulse 2s infinite;
+  }
+
+  .instagram {
+    width: 80px;
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 850px;
+    background-color: #ac84ce;
+    border-radius: 30px;
+    border: 10px solid #fff;
+  }
+
+  .load-box {
+    position: relative;
+  }
+
+  .load-bar {
+    width: 700px;
+  }
+
+  .blink {
+    position: absolute;
+    width: 80px;
+    top: 21px;
+    right: 418px;
+    animation: pulse 2s infinite;
+  }
+
+}
